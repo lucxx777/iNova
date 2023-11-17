@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/telalogin.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-card">
+        <div class="container">
+            <img src="../IMG/nuveminova.png" alt="Logo l">
+        </div>
+        <h1>Matricule-se</h1>
+        <h3>Coloque seus dados</h3>
+        <form class="login-form" action="htmlk/indexx.html" method="get">
+            <input type="text" placeholder="Nome">
+            <input type="password" placeholder="Senha">
+            <label>Escolha um ou mais cursos:</label>
+            <br>
+            <br>
+            <div id="courses">
+                <input type="checkbox" id="programacao" name="courses" value="programacao">
+                <label for="programacao">Programação</label>
+                <br>
+    
+                <input type="checkbox" id="devops" name="courses" value="devops">
+                <label for="devops">DevOps</label>
+        <br>
+                <input type="checkbox" id="mobile" name="courses" value="mobile">
+                <label for="mobile">Mobile</label>
+                <br>
+                <input type="checkbox" id="front-end" name="courses" value="front-end">
+                <label for="front-end">Front-end</label>
+                <br>
+                <input type="checkbox" id="design" name="courses" value="design">
+                <label for="design">Design</label>
+                <br>
+                <input type="checkbox" id="data-science" name="courses" value="data-science">
+                <label for="data-science">Data Science</label>
+            </div>
+            <button type="submit">ENTRAR</button>
+        </form>
+    </div>
+</body>
+</html>

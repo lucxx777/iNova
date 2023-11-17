@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>iNova| Área do aluno</title> <!-- Alterei de "Area do aluno" para "Área do aluno" -->
+</head>
+
+<body>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Seja bem-vindo!</h1>
+            <h3>Área do aluno</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h2>Progresso dos cursos:</h2>
+            <a href="/home/index.html">Home</a>
+        </div>
+
+        <div class="card">
+            <div class="progress-circle">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring__circle" stroke="grey" stroke-width="4" fill="transparent" r="54"
+                        cx="60" cy="60"></circle>
+                </svg>
+                <div class="percentage">
+                    0%
+                </div>
+            </div>
+
+            <div class="info">
+                <h1 class="ncurso">Full-Stack</h1>
+
+                <div class="header">
+                    <a href="/cursosfullstack/aula0.html" id="button-curso">Ver todas as aulas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h2>Todos os seus cursos:</h2> <!-- Corrigi "seu" para "seus" -->
+        </div>
+        <div class="feature-cards">
+            <button type="button" class="coiso">
+                <div class="card">
+                    <div class="info">
+                        <i class='bx bx-code-alt'></i>
+
+                        <h2> <a class="sem-sublinhado nomeCa" href="/cursosprogramacao/aula0.html">Programação</a></h2>
+
+                        <p>
+                            <a class="sem-sublinhado" href="/cursosprogramacao/aula0.html"> Programação é o processo de
+                                criação de um conjunto de instruções que dizem ao computador como realizar uma tarefa.
+                                Programação pode ser feita usando uma variedade de "idiomas" do computador, tais como
+                                SQL, Java, Python e C++.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </button>
+            <button type="button" class="coisa">
+                <div class="card">
+                    <div class="info">
+                        <i class='bx bxs-component'></i>
+                        <h2> <a class="sem-sublinhado nomeCb" href="/cursosdesign/aula0.html">Design</a></h2>
+                        <p>
+                            <a class="sem-sublinhado" href="/cursosdesign/aula0.html">O Design pode ser compreendido
+                                como um processo, ou ciência, para solucionar um determinado problema — seja ele qual
+                                for — por meio da manipulação de atributos visuais. </a>
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </button>
+        </div>
+        <button type="button" class="coise">
+            <div class="card">
+                <div class="info">
+                    <img src="/IMG/ok.png" height="200px">
+                    <h2> <a class="sem-sublinhado nomeCc" href="/cursosfullstack/aula0.html">Full-Stack</a></h2>
+                    <p>
+                        <a class="sem-sublinhado" href="/cursosfullstack/aula0.html">Full Stack é um tipo de profissional
+                            ligado à área de TI capaz de trabalhar nas mais diversas atividades que dizem respeito ao
+                            desenvolvimento e programação web, muito valorizado no mercado graças ao seu conhecimento em
+                            diferentes linguagens, códigos e tecnologias. </a>
+                    </p>
+                </div>
+            </div>
+        </button>
+
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="scriptt.js"></script>
+</body>
+
+</html>
